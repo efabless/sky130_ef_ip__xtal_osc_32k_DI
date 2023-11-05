@@ -1,0 +1,32 @@
+{
+    "info": {
+        "name": "sky130_ef_ip__xtal_osc_32k_DI",
+        "description": "Digital wrapper for an ultra-low-power, low speed crystal oscillator",
+        "repo": "github.com/efabless/sky130_ef_ip__xtal_osc_32k_DI",
+        "owner": "Efabless Corp.",
+        "license": "APACHE 2.0",
+        "author": "Marwan Abbas",
+        "email": "marwan.abbas@efabless.com",
+        "version": "v1.0.0",
+        "date": "1-11-2023",
+        "category": "analog",
+        "tags": [
+            "crystal oscillator",
+            "low power",
+            "low speed"
+        ],
+        "bus": [
+            "n/a"
+        ],
+        "type": "hard",
+        "status": "verified",
+        "cell_count": "n/a",
+        "width": "56.9",
+        "height": "128.18",
+        "technology": "sky130",
+        "clock_freq_mhz": "0.032768",
+        "supply_voltage": [
+            "1.8"
+        ]
+    }
+}
