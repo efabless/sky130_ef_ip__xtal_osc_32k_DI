@@ -1,5 +1,7 @@
 /*
 	Copyright 2020 Efabless Corp.
+
+	Author: Mohamed Shalan (mshalan@efabless.com)
 	
 	Licensed under the Apache License, Version 2.0 (the "License"); 
 	you may not use this file except in compliance with the License. 
@@ -17,31 +19,24 @@
 
 module sky130_ef_ip__xtal_osc_32k_DI (
 `ifdef USE_POWER_PINS
-    input    vdda1,
-    input    vssa1,
-    input    vccd1,
-    input    vssd1,
+    input   real    avdd,
+    input   real    avss,
+    input   real    dvdd,
+    input   real    dvss,
 `endif
-    input    in,
-    input    ena,
-    output   dout,
-    output   out,
-    input    boost
+    input   real    in,
+    input   wire    ena,
+    input   wire    boost,
+    output  real    out,
+    output  wire    dout
 );
 
-sky130_ef_ip__xtal_osc_32k mprj (
-`ifdef USE_POWER_PINS
-    .avdd(vdda1),
-    .avss(vssa1),
-    .dvdd(vccd1),
-    .dvss(vssd1),
-`endif
-
-    .in(in),
-    .ena(ena),
-    .out(out),
-    .dout(dout),
-    .boost(boost)
-);
+    reg clk=0;
+    
+    // period/2
+    real period32 = 15625;
+ 
+    always #period32 clk = (!clk & ena);
+    assign dout = clk;
 
 endmodule
