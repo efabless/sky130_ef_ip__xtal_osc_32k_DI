@@ -19,16 +19,16 @@
 
 module sky130_ef_ip__xtal_osc_32k_DI (
 `ifdef USE_POWER_PINS
-    input   real    avdd,
-    input   real    avss,
-    input   real    dvdd,
-    input   real    dvss,
+    input   wire    vdda1,
+    input   wire    vssa1,
+    input   wire    vccd1,
+    input   wire    vssd1,
 `endif
-    input   real    in,
+    input   wire    in,
     input   wire    ena,
-    input   wire    boost,
-    output  real    out,
-    output  wire    dout
+    output  wire    dout,
+    output  wire    out,
+    input   wire    boost
 );
 
     reg clk=0;
