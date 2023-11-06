@@ -40,7 +40,8 @@ sky130_ef_ip__xtal_osc_32k mprj (
     .in(in),
     .ena(ena),
     .out(out),
-    .dout(dout)
+    .dout(dout),
+    .boost(boost)
 );
 
 endmodule
