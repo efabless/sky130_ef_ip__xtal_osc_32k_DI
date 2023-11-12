@@ -47,84 +47,84 @@ MACRO sky130_ef_ip__xtal_osc_32k_DI
     ANTENNADIFFAREA 200.228592 ;
     PORT
       LAYER met4 ;
-        RECT 186.835 3.300 188.435 211.800 ;
+        RECT 186.835 3.300 188.435 134.100 ;
     END
     PORT
       LAYER met4 ;
-        RECT 180.235 3.300 181.835 211.800 ;
+        RECT 180.235 3.300 181.835 134.100 ;
     END
     PORT
       LAYER met4 ;
-        RECT 176.935 3.300 178.535 211.800 ;
+        RECT 176.935 3.300 178.535 134.100 ;
     END
     PORT
       LAYER met4 ;
-        RECT 183.535 3.300 185.135 211.800 ;
+        RECT 183.535 3.300 185.135 134.100 ;
     END
     PORT
       LAYER met4 ;
-        RECT 257.420 3.300 259.020 211.800 ;
+        RECT 257.420 3.300 259.020 134.100 ;
     END
     PORT
       LAYER met4 ;
-        RECT 254.120 3.300 255.720 211.800 ;
+        RECT 254.120 3.300 255.720 134.100 ;
     END
     PORT
       LAYER met4 ;
-        RECT 260.720 3.300 262.320 211.800 ;
+        RECT 260.720 3.300 262.320 134.100 ;
     END
     PORT
       LAYER met4 ;
-        RECT 264.020 3.300 265.620 211.800 ;
+        RECT 264.020 3.300 265.620 134.100 ;
     END
   END vdda1
   PIN vssa1
     ANTENNADIFFAREA 167.107590 ;
     PORT
       LAYER met4 ;
-        RECT 166.215 3.300 167.815 211.800 ;
+        RECT 166.215 3.300 167.815 134.100 ;
     END
     PORT
       LAYER met4 ;
-        RECT 159.615 3.300 161.215 211.800 ;
+        RECT 159.615 3.300 161.215 134.100 ;
     END
     PORT
       LAYER met4 ;
-        RECT 156.315 3.300 157.915 211.800 ;
+        RECT 156.315 3.300 157.915 134.100 ;
     END
     PORT
       LAYER met4 ;
-        RECT 162.915 3.300 164.515 211.800 ;
+        RECT 162.915 3.300 164.515 134.100 ;
     END
     PORT
       LAYER met4 ;
-        RECT 243.400 3.300 245.000 211.800 ;
+        RECT 243.400 3.300 245.000 134.100 ;
     END
     PORT
       LAYER met4 ;
-        RECT 236.800 3.300 238.400 211.800 ;
+        RECT 236.800 3.300 238.400 134.100 ;
     END
     PORT
       LAYER met4 ;
-        RECT 240.100 3.300 241.700 211.800 ;
+        RECT 240.100 3.300 241.700 134.100 ;
     END
     PORT
       LAYER met4 ;
-        RECT 233.500 3.300 235.100 211.800 ;
+        RECT 233.500 3.300 235.100 134.100 ;
     END
   END vssa1
   PIN vssd1
     ANTENNADIFFAREA 15.428800 ;
     PORT
       LAYER met4 ;
-        RECT 201.105 3.300 202.705 211.800 ;
+        RECT 201.105 3.300 202.705 134.100 ;
     END
   END vssd1
   PIN vccd1
     ANTENNADIFFAREA 4.959600 ;
     PORT
       LAYER met4 ;
-        RECT 213.440 3.300 215.040 211.800 ;
+        RECT 213.440 3.300 215.040 134.100 ;
     END
   END vccd1
   OBS
